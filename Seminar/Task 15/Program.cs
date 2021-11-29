@@ -1,18 +1,14 @@
 ﻿// Найти третью цифру числа или сообщить, что её нет
-int N = new Random().Next(1,9999);
+int N = new Random().Next(1,9999999);
 Console.WriteLine(N);
 if (N > 99)
 {
-    if (N < 1000)
+    while (N > 1000)
     {
-    Console.WriteLine($"Третья цифра числа: {N%10}");
+   N = N /10;
     }
-    else
-    {
-        N = N/10;
-        N = N%10;
-        Console.WriteLine($"Третья цифра числа: {N}");
-    }
+        Console.WriteLine($"Третья цифра числа: {N%10}");
+
 }
 else
 {
