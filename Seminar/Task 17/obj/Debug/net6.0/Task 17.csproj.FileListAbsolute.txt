@@ -3,3 +3,13 @@ C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\Tas
 C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\Task 17.AssemblyInfoInputs.cache
 C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\Task 17.AssemblyInfo.cs
 C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\Task 17.csproj.CoreCompileInputs.cache
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\bin\Debug\net6.0\Task 17.exe
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\bin\Debug\net6.0\Task 17.deps.json
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\bin\Debug\net6.0\Task 17.runtimeconfig.json
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\bin\Debug\net6.0\Task 17.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\bin\Debug\net6.0\ref\Task 17.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\bin\Debug\net6.0\Task 17.pdb
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\Task 17.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\ref\Task 17.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\Task 17.pdb
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 17\obj\Debug\net6.0\Task 17.genruntimeconfig.cache
