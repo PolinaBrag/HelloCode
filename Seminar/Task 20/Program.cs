@@ -5,35 +5,33 @@ Console.WriteLine("Введите координату Y не равную 0:");
 int Y = int.Parse(Console.ReadLine());
 
 
-//while (X != 0 || Y != 0)
-
-
 if (X > 0 && Y > 0)
 {
     Console.WriteLine("Точки находятся в I четверти плоскости");
-    break;
 }
 else
-{
-    if (X < 0 && Y > 0)
     {
-        Console.WriteLine("Точки находятся во II четверти плоскости");
-    }
-    else
-    {
-        if (X < 0 && Y < 0)
+        if (X < 0 && Y > 0)
         {
-        Console.WriteLine("Точки находятся в III четверти плоскости");
+            Console.WriteLine("Точки находятся во II четверти плоскости");
         }
-        else
-        {
-                if (X > 0 && Y < 0)
-                {
-                    Console.WriteLine("Точки находятся в IV четверти плоскости");
-                }
+            else
+         {
+                 if (X < 0 && Y < 0)
+                     {
+                      Console.WriteLine("Точки находятся в III четверти плоскости");
+                     }
+                         else
+                          {
+                             if (X > 0 && Y < 0)
+                              {
+                                 Console.WriteLine("Точки находятся в IV четверти плоскости");
+                              }
+                                   else
+                                    {
+                                            Console.WriteLine("Х или У не могут быть равны нулю"); 
+                                    }
         }
 
     }
 }
-
-//Console.WriteLine("Одна из точек равна 0"); 
