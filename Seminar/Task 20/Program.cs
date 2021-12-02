@@ -16,13 +16,13 @@ else
             Console.WriteLine("Точки находятся во II четверти плоскости");
         }
             else
-         {
+           {
                  if (X < 0 && Y < 0)
                      {
                       Console.WriteLine("Точки находятся в III четверти плоскости");
                      }
                          else
-                          {
+                            {
                              if (X > 0 && Y < 0)
                               {
                                  Console.WriteLine("Точки находятся в IV четверти плоскости");
@@ -31,7 +31,7 @@ else
                                     {
                                             Console.WriteLine("Х или У не могут быть равны нулю"); 
                                     }
-        }
+                            }
 
+            }
     }
-}
