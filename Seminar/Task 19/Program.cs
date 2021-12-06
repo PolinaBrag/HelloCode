@@ -1,13 +1,32 @@
 ﻿// Проверить истинность утверждения ¬(X ⋁ Y) = ¬X ⋀ ¬Y
 
-bool x = true;
-bool y = true;
-
-if (!(x || y) == (!x && !y))
+bool TrueFalse(bool x, bool y)
 {
-    Console.WriteLine("Выражение истинно");
+    return (!(x || y) == (!x && !y));
+}
+
+bool [] x = {true, false};
+bool [] y = {true, false};
+
+bool result = true;
+for (int i = 0; i < x.Length; i++)
+{
+    for (int j = 0; j < y.Length; j++)
+    {
+        Console.WriteLine($"Для выражения {x[i]} и {y[j]} = {TrueFalse(x[i], y[j])}");
+        if (!TrueFalse(x[i], y[j]))
+        {
+            Console.WriteLine("Утверждение ложно");
+            result = false;
+        }
+
+    }
+}
+if (result)
+{
+    Console.WriteLine("Удалось доказать утверждение");
 }
 else
 {
-    Console.WriteLine("Выражение ложно");
+    Console.WriteLine("Не удалось доказать утверждение");
 }

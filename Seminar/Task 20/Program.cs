@@ -1,5 +1,5 @@
 ﻿// Определить номер четверти плоскости, в которой находится точка с координатами Х и У, причем X ≠ 0 и Y ≠ 0
-Console.WriteLine("Введите координату Х не равную 0:");
+/* Console.WriteLine("Введите координату Х не равную 0:");
 int X = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите координату Y не равную 0:");
 int Y = int.Parse(Console.ReadLine());
@@ -35,3 +35,4 @@ else
 
             }
     }
+    */
