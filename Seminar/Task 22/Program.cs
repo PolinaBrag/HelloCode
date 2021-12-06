@@ -3,7 +3,7 @@ Console.WriteLine("Введите пятизначное число:");
 int Palindrom = int.Parse(Console.ReadLine());
 int[] Array = new int [5];
 
-for (int i = 0; i <= Array.Length; i++)
+for (int i = 0; i < Array.Length; i++)
 {
     Array[i] = Palindrom%10;
     Palindrom = Palindrom/10;
