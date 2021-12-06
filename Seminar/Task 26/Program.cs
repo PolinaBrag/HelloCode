@@ -1,6 +1,7 @@
 ﻿// Найти сумму чисел от 1 до А
+Console.WriteLine("Введите ваше число:");
+int j = int.Parse(Console.ReadLine());
 
-int j = 45;
 int total = 0;
 
 for (int i = 1; i <= j; i++)
