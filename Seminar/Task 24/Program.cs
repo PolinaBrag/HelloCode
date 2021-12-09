@@ -1,11 +1,10 @@
 ﻿// Показать таблицу квадратов чисел от 1 до N
 
-    for (int i = 2; i <= 10; i++)
+    int N = 10;
+    for (int i = 1; i <= N; i++)
     {
-        for (int j = 2; j <= 10; j++)
-        {
-            Console.WriteLine($"{i} * {j} = {i * j}");
-        }
-         Console.WriteLine();
+            Console.WriteLine($"{i} * {i} = {i * i}");
     }
+         Console.WriteLine();
+
 
