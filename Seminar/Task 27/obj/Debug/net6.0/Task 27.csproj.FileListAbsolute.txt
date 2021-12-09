@@ -1,0 +1,15 @@
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.csproj.AssemblyReference.cache
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.AssemblyInfoInputs.cache
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.AssemblyInfo.cs
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.csproj.CoreCompileInputs.cache
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\bin\Debug\net6.0\Task 27.exe
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\bin\Debug\net6.0\Task 27.deps.json
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\bin\Debug\net6.0\Task 27.runtimeconfig.json
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\bin\Debug\net6.0\Task 27.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\bin\Debug\net6.0\ref\Task 27.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\bin\Debug\net6.0\Task 27.pdb
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\ref\Task 27.dll
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.pdb
+C:\Users\polya\Desktop\Семинар 1 С#\Seminar\Task 27\obj\Debug\net6.0\Task 27.genruntimeconfig.cache
