@@ -5,26 +5,16 @@ int num = int.Parse(Console.ReadLine());
 
 int answer = 0;
 int count = 0;
-//int[] binaryNumber = {};
 string binaryNumber = string.Empty;
-
 
 while(num > 0)
 {
 answer = num %2;
 binaryNumber = answer.ToString() + binaryNumber;
-// binaryNumber[count] = answer;
 num = num/2;
 count++;
-//Console.Write(answer);
 }
 
 Console.Write(binaryNumber);
-
-// for (int i = binaryNumber.Length-1; i >= 0; i--)
-// {
-//     
-//     Console.Write(binaryNumber[binaryNumber.Length - 1]);
-// }
 
 
