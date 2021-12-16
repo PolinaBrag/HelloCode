@@ -1,10 +1,12 @@
 ﻿// Найти точку пересечения двух прямых заданных уравнением y = k1 * x + b1, y = k2 * x + b2, b1 k1 и b2 и k2 заданы
-
-double b1 = 5;
-double k1 = 10;
-
-double b2 = 13;
-double k2 = 4;
+Console.WriteLine("Введите значение b1:");
+double b1 = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение k1:");
+double k1 = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение b2:");
+double b2 = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите значение k2:");
+double k2 = double.Parse(Console.ReadLine());
 
 //y = k1 * x + b1
 //y = k2 * x + b2
