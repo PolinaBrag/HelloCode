@@ -12,7 +12,11 @@ double k2 = double.Parse(Console.ReadLine());
 //y = k2 * x + b2
 // x = (b2 - b1)/(k1 - k2)
 
+if(k1 ==  k2)
+    Console.WriteLine("Прямые не пересекаются");
+else
+{ 
 double x = (b2 - b1)/(k1 - k2);
 double y = k2 * x + b2;
-
 Console.WriteLine($"Координаты точки пересечения двух прямых {x} {y}");
+}
