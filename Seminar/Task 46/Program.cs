@@ -1,5 +1,6 @@
 ﻿// Показать числа Фибоначчи
 
+
 Console.WriteLine("Ввведите число, заканчивающее ряд Фибоначчи:");
 int end = int.Parse(Console.ReadLine());
 
