@@ -20,6 +20,7 @@ FillArray(doubleArray);
 Console.WriteLine("Введите ваше число для проверки наличия в массиве:");
 int num = int.Parse(Console.ReadLine());
 
+int countOfNum = 0;
 for (int row = 0; row < doubleArray.GetLength(0); row++)
 {
     for (int column = 0; column < doubleArray.GetLength(1); column++)
@@ -27,10 +28,12 @@ for (int row = 0; row < doubleArray.GetLength(0); row++)
         if (num == doubleArray[row, column])
         {
         Console.WriteLine($"Число присутствует в массиве на позиции [{row} , {column}]");
+        countOfNum ++;
         }
     }
 }
-Console.WriteLine($"Данного числа нет в массиве");
+
+if (countOfNum == 0) Console.WriteLine($"Данного числа нет в массиве");
 
 // int row = 0;
 // int column = 0;
