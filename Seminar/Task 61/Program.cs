@@ -35,7 +35,7 @@ for (int row = 0; row < doubleArray.GetLength(0); row++)
                 }
             }
         }
-        Console.WriteLine($"Число {doubleArray[row, column]} встречается {count} раз(а)"); 
+            Console.WriteLine($"Число {doubleArray[row, column]} встречается {count} раз(а)"); 
         count = 0;
     }
 }
