@@ -20,30 +20,35 @@ Console.WriteLine();
 
 
 
-    // int count = 0;
-    // for (int row = 0; row < doubleArray.GetLength(0);row++)
-    // {
-    //     for (int column = 0; column < doubleArray.GetLength(1); column++)
-    //     {
-    //         for (int i = 0; i < doubleArray.GetLength(1); i++)
-    //         {
-    //            if (doubleArray[row, column] == doubleArray[row, i])
-    //            {
-    //              count++;
-    //            } 
-    //            Console.WriteLine($" {doubleArray[row, column]} встречается {count} раз"); 
-    //         }
-    //         }           
-    //      count = 0; 
-    // }
-
-    int num = doubleArray[row, column];
-
-    for (int i = 1; i < doubleArray.length; i++)
+int count = 0;
+for (int row = 0; row < doubleArray.GetLength(0); row++)
+{
+    for (int column = 0; column < doubleArray.GetLength(1); column++)
     {
-        if (count > 0 && i == num)
+        for (int i = 0; i < doubleArray.GetLength(0); i++)
         {
-            выводим
+            for (int k = 0; k < doubleArray.GetLength(1); k++)
+            {
+                if (doubleArray[row, column] == doubleArray[i, k])
+                {
+                    count++;    
+                }
+            }
         }
+        Console.WriteLine($"Число {doubleArray[row, column]} встречается {count} раз(а)"); 
+        count = 0;
     }
-    
+}
+
+
+// int num = doubleArray[row, column];
+// for (int j = 1; j <= 10; j++)
+//                 {
+//                     if (count > 0 && j == num)
+//                     {
+//                         Console.WriteLine($" {j} встречается {count} раз");
+//                     }
+//                 }
+
+
+
