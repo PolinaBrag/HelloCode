@@ -10,7 +10,7 @@ int sumOfDigits(int num)
     {
         return num;
     }
-        return sumOfDigits(num / 10) + num % 10;
+    return sumOfDigits(num / 10) + num % 10;
 }
 
 Console.WriteLine(sumOfDigits(number));

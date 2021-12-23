@@ -49,13 +49,11 @@ if (columnFirst == rowSecond)
             for (int column = 0; column < doubleArrayFirst.GetLength(1); column++)
             {
                 product = doubleArrayFirst[row, column] * doubleArraySecond[column, i];
-                //Console.Write(product + " ");
                 sum = sum + product;
-                
-            }  
+            }
             newArr[row, i] = sum;
+            sum = 0;
         }
-        sum = 0;
     }
 }
 else
@@ -64,11 +62,11 @@ else
 }
 
 Console.WriteLine("Наша матрица:");
- for (int m = 0; m < newArr.GetLength(0); m++)
-            {
-                for (int n = 0; n < newArr.GetLength(1); n++)
-                {
-                    Console.Write(newArr[m, n] + " ");
-                }
-                Console.WriteLine();
-            }
+for (int m = 0; m < newArr.GetLength(0); m++)
+{
+    for (int n = 0; n < newArr.GetLength(1); n++)
+    {
+        Console.Write(newArr[m, n] + " ");
+    }
+    Console.WriteLine();
+}
