@@ -49,9 +49,11 @@ if (columnFirst == rowSecond)
             for (int column = 0; column < doubleArrayFirst.GetLength(1); column++)
             {
                 product = doubleArrayFirst[row, column] * doubleArraySecond[column, i];
-                Console.Write(product + " ");
+                //Console.Write(product + " ");
                 sum = sum + product;
-            }
+                
+            }  
+            newArr[row, i] = sum;
         }
         sum = 0;
     }
@@ -61,16 +63,12 @@ else
     Console.WriteLine("Перемножить матрицы невозможно: количество столбцов первой матрицы не равно количеству строк второй матрицы");
 }
 
-//  for (int m = 0; m < newArr.GetLength(0); m++)
-//             {
-//                 for (int n = 0; n < newArr.GetLength(1); n++)
-//                 {
-//                     newArr[m, n] = sum;
-//                     Console.Write(newArr[m, n] + " ");
-//                 }
-//                 Console.WriteLine();
-//             }
-
-                
-                 newArr[row, column] = sum;
-        Console.Write(newArr[row, column] + " ");
+Console.WriteLine("Наша матрица:");
+ for (int m = 0; m < newArr.GetLength(0); m++)
+            {
+                for (int n = 0; n < newArr.GetLength(1); n++)
+                {
+                    Console.Write(newArr[m, n] + " ");
+                }
+                Console.WriteLine();
+            }

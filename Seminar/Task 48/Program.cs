@@ -49,7 +49,6 @@ PrintArray(newArray);
 
 array[2] = 12;
 
-
 Console.WriteLine();
 PrintArray(array);
 PrintArray(newArray);

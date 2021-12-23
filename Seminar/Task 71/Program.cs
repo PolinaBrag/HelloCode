@@ -1,8 +1,6 @@
 ﻿// Найти сумму цифр числа
 
-int number = 100
-;
-int sum = 0;
+int number = 15;
 
 int sumOfDigits(int num)
 {
@@ -12,9 +10,8 @@ int sumOfDigits(int num)
     }
     else
     {
-        sum = sumOfDigits(num/10);
-        sum = sum + num %10;
-        return sum;
+      
+        return sumOfDigits(num/10) + num %10;
     }
 }
 

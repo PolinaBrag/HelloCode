@@ -10,9 +10,13 @@ void numbers(int a, int b)
     {
         return;
     }
-    else
+    else if( a < b)
     {
         numbers(a + 1, b);
+    }
+    else
+    {
+        numbers(a - 1, b);
     }
 }
 
