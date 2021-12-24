@@ -1,14 +1,14 @@
 ﻿// Написать программу показывающие первые N чисел, для которых каждое следующее равно сумме двух предыдущих. 
 // Первые два элемента последовательности задаются пользователем
 
-int numberFirst = 4;
-int numberSecond = 7;
-int count = 12;
+int numberFirst = 7;
+int numberSecond = 10;
+int count = 15;
 
 int Fibonacci(int a, int b, int n)
 {
-if (n <= a) return a;
-if (n <= b) return b;
+if (n == 2) return b;
+if (n == 1) return a;
 else
 {
    return Fibonacci(a, b, n - 1) + Fibonacci(a, b, n - 2);
