@@ -13,7 +13,7 @@ void FillArray(int[,] newArray)
     {
         for (int column = 0; column < newArray.GetLength(1); column++)
         {
-            newArray[row, column] = new Random().Next(1, 10);
+            newArray[row, column] = new Random().Next(10, 100);
         }
     }
 }
@@ -35,11 +35,13 @@ Console.WriteLine("Наш массив:");
 PrintArray(doubleArray);
 Console.WriteLine();
 
+
 int min = doubleArray[0,0];
 
 for (int row = 0; row < doubleArray.GetLength(0); row++)
 {
-    for (int column = 0; column < doubleArray.GetLength(1); column++)
+    min = doubleArray[row,0];
+    for (int column = 1; column < doubleArray.GetLength(1); column++)
     {
             if (doubleArray[row, column] < min)
             {
@@ -47,6 +49,5 @@ for (int row = 0; row < doubleArray.GetLength(0); row++)
             }
     }
    Console.Write(min);
-   min = doubleArray[0,0];
    Console.WriteLine();
 }
