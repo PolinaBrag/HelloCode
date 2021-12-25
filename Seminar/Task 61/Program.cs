@@ -9,15 +9,24 @@ void FillArray(int[,] newArray)
         for (int column = 0; column < newArray.GetLength(1); column++)
         {
             newArray[row, column] = new Random().Next(1, 10);
-            Console.Write(newArray[row, column] + " ");
+        }
+    }
+}
+
+void PrintArray(int[,] newArray2)
+{
+    for (int row = 0; row < newArray2.GetLength(0); row++)
+    {
+        for (int column = 0; column < newArray2.GetLength(1); column++)
+        {
+            Console.Write(newArray2[row, column] + " ");
         }
         Console.WriteLine();
     }
 }
-
 FillArray(doubleArray);
+PrintArray(doubleArray);
 Console.WriteLine();
-
 
 
 int count = 0;
@@ -35,7 +44,7 @@ for (int row = 0; row < doubleArray.GetLength(0); row++)
                 }
             }
         }
-            Console.WriteLine($"Число {doubleArray[row, column]} встречается {count} раз(а)"); 
+        Console.WriteLine($"Число {doubleArray[row, column]} встречается {count} раз(а)"); 
         count = 0;
     }
 }
