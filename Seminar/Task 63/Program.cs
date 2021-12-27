@@ -37,17 +37,30 @@ Console.WriteLine();
 
 
 int min = doubleArray[0,0];
+int rowMin = 0;
+int colMin = 0;
 
 for (int row = 0; row < doubleArray.GetLength(0); row++)
 {
-    min = doubleArray[row,0];
-    for (int column = 1; column < doubleArray.GetLength(1); column++)
+    for (int column = 0; column < doubleArray.GetLength(1); column++)
     {
             if (doubleArray[row, column] < min)
             {
                 min = doubleArray[row, column];
+                rowMin = row;
+                colMin = column;
             }
     }
-   Console.Write(min);
-   Console.WriteLine();
 }
+//Console.Write(min + " " + rowMin + " " + colMin);
+   Console.WriteLine();
+   
+for (int row = 0; row < doubleArray.GetLength(0); row++)
+    {
+        for (int column = 0; column < doubleArray.GetLength(1); column++)
+        {
+            if (row != rowMin && column != colMin)
+            Console.Write(doubleArray[row, column] + " ");
+        }
+        Console.WriteLine();
+    }
