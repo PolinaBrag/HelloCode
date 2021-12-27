@@ -1,8 +1,7 @@
 ﻿// Написать программу показывающие первые N чисел, для которых каждое следующее равно сумме двух предыдущих. 
 // Первые два элемента последовательности задаются пользователем
-
-int numberFirst = 7;
-int numberSecond = 10;
+int numberFirst = new Random().Next(1, 10);
+int numberSecond = new Random().Next(1, 10);
 int count = 15;
 
 int Fibonacci(int a, int b, int n)

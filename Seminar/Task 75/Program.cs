@@ -14,4 +14,4 @@ void Words(string alphabet, char[] word, int length = 0)
         Words(alphabet, word, length + 1);
     }
 }
-Words("аисв", new char[5]);
+Words("аисв", new char[4]);
