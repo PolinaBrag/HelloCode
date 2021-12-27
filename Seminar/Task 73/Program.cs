@@ -1,16 +1,16 @@
 ﻿// Написать программу возведения числа А в целую стень B
 
-int number = 4;
-int pow = 5;
+int number = 3;
+int pow = -8;
 
-int numberPow (int a, int b)
+double numberPow(int a, int b)
 {
+    if (b < 0)
+        return numberPow(a, b + 1) / a;
     if (b == 0)
-    return 1;
+        return 1;
     else
-    {
         return numberPow(a, b - 1) * a;
-    }
 }
 Console.WriteLine(numberPow(number, pow));
 
