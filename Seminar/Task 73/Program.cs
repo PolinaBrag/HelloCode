@@ -5,8 +5,8 @@ int pow = 5;
 
 int numberPow (int a, int b)
 {
-    if (b == 1)
-    return a;
+    if (b == 0)
+    return 1;
     else
     {
         return numberPow(a, b - 1) * a;
